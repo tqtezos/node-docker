@@ -1,4 +1,4 @@
-FROM tezos/tezos:carthagenet_ee87c704_20191211160332
+FROM tezos/tezos:mainnet
 
 # Install AWS CLI
 
