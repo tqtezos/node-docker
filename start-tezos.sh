@@ -9,6 +9,7 @@ init_node() {
 		--net-addr="[::]:$netport" \
 		--connections=$connections \
 		--network=$network \
+		--history-mode=archive \
 		--cors-origin='*' \
 		--cors-header 'Origin, X-Requested-With, Content-Type, Accept, Range'
 	cat /home/tezos/.tezos-node/config.json
